@@ -7,7 +7,7 @@ int col=0, row=0,rows=matrix.size(),cols=matrix[0].size();
          if(matrix[i][j]==0){
                if(j==0) col=1;
                 if(i==0)  row=1;
-                matrix[i][0]=matrix[0][j]=0;
+                matrix[i][0]=matrix[0][j]=0;   //left and top set to 0
         }
     }
     }
